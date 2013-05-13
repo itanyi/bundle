@@ -15,4 +15,16 @@
 	url = https://github.com/scrooloose/nerdtree.git
 [submodule ".vim/pyflakes"]
 	path = .vim/pyflakes
-	url = https://github.com/kevinw/pyflakes.giy
+	url = https://github.com/kevinw/pyflakes.git
+[submodule ".vim/vim-powerline"]
+	path = .vim/vim-powerline
+	url = https://github.com/Lokaltog/vim-powerline.git
+[submodule ".vim/vim-sensible"]
+	path = .vim/vim-sensible
+	url = git://github.com/tpope/vim-sensible.git
+[submodule "vim-settings"]
+	path = vim-settings
+	url = https://github.com/zhhz/vim-settings.git
+[submodule ".vim/winmanager"]
+	path = .vim/winmanager
+	url = https://github.com/vim-scripts/winmanager.git
