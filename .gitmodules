@@ -13,3 +13,6 @@
 [submodule ".vim/nerdtree"]
 	path = .vim/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule ".vim/pyflakes"]
+	path = .vim/pyflakes
+	url = https://github.com/kevinw/pyflakes.giy
