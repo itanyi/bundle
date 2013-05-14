@@ -15,7 +15,8 @@ set showcmd
 "显示行号：
 set number
 ""为方便复制，用<F2>开启/关闭行号显示:
-nnoremap <F2> :set nonumber!<CR>:set foldcolumn=0<CR>
+nnoremap <F2> :TagbarToggle<CR>
+nnoremap <F3> :NERDTree<CR>
 set modeline
 "为深色背景调整配色
 set background=dark
@@ -95,3 +96,7 @@ func SetTitle()
     "新建文件后，自动定位到文件末尾
     autocmd BufNewFile * normal G
 endfunc
+set tags=tags;
+filetype plugin on
+let g:pydiction_location = '~/.vim/bundle/Pydiction/complete-dict'
+
