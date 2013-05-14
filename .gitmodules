@@ -28,3 +28,9 @@
 [submodule ".vim/bundle/winmanager"]
 	path = .vim/bundle/winmanager
 	url = https://github.com/vim-scripts/winmanager
+[submodule ".vim/bundle/Pydiction"]
+	path = .vim/bundle/Pydiction
+	url = https://github.com/vim-scripts/Pydiction.git
+[submodule ".vim/bundle/nerdcommenter"]
+	path = .vim/bundle/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
