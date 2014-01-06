@@ -15,6 +15,7 @@ set showcmd
 "显示行号：
 set number
 ""为方便复制，用<F2>开启/关闭行号显示:
+nnoremap <F1> :se mouse=v<CR>
 nnoremap <F2> :TagbarToggle<CR>
 nnoremap <F3> :NERDTree<CR>
 set modeline
@@ -57,6 +58,8 @@ set shiftwidth=4
 set tabstop=4 
 set expandtab 
 set softtabstop=4 
+set cursorcolumn
+
 ""定义函数SetTitle，自动插入文件头 
 autocmd BufNewFile *.py,*.cpp,*.sh,*.java exec ":call SetTitle()"
 func SetTitle()
